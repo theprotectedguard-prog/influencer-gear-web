@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* nav section styles star here */
+
+.nav {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h3 {
+    color: rgba(58, 58, 58, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* nav styles end here */
+
+/* banner-style start here */
+.banner-section {
+
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    max-width: 1024px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    color: rgba(58, 58, 58, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: rgba(58, 58, 58, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+.btn-primary {
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: rgba(224, 44, 109, 1);
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/* banner styles end here  */
+
+/* sponsor styles start here */
+
+.sponsor-section {
+    max-width: 1024px;
+    margin: 60px auto;
+}
+
+.sponsor-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    border: 1px solid gainsboro;
+    border-left: none;
+    border-right: none;
+}
+
+/* sponsor styles end here */
+
+/* product section styles */
+.product-section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.product-section-title {
+    color: rgba(58, 58, 58, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-container {
+    margin: 24px 25px 0 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+
+
+
+}
+
+.product-card {
+    width: 270px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+}
+
+.product-card img {
+    width: 260px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 12px 0px 6px 0px;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.50rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.condition {
+    width: 150px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgba(94, 99, 102, 1);
+}
+
+.see-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 25px;
+
+}
+
+/* product section style end here */
+
+/* gear section styles start here */
+.gear-section {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.gear-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.gear-section img {
+    width: 350px;
+}
+
+
+.gear-title {
+    color: rgba(10, 8, 38, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25em;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.gear-description {
+    color: rgba(108, 108, 108, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 0.80rem;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.join-btn {
+    background: rgba(224, 44, 109, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+/* gear section styles end here */
+
+/* footer section styles start here  */
+
+.footer-section {
+    background: rgba(10, 8, 38, 1);
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.footer-title {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.50rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 1);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.social-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   
+    
+/*footer style end here */
+
+/* responsive style for mobile start here */
