@@ -10,7 +10,7 @@
 
 /* nav section styles star here */
 
-.nav {
+.nav-section {
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -249,19 +249,128 @@
 
 .footer-description {
     color: rgba(255, 255, 255, 1);
-    font-family: Manrope;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     text-align: center;
 }
-.social-icon{
+
+.social-icon {
     color: white;
     display: flex;
     justify-content: center;
     gap: 25px;
-   
-    
+}
+
 /*footer style end here */
 
+
 /* responsive style for mobile start here */
+@media screen and (max-width:576px) {
+
+    .nav-section,
+    .nav-links {
+        flex-direction: column;
+
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-position: top left;
+        background-size: 90%;
+    }
+
+    .banner-title {
+        text-align: center;
+        font-size: 2.50rem;
+        margin-top: 50px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+
+    .banner-image img {
+        width: 80%;
+        margin: 20px 0 10px 10px;
+    }
+
+    .sponsor-icon {
+        display: grid;
+        grid-template-columns: repeat(3,100px);
+        grid-template-rows: repeat(2,50px);
+        gap: 30px;
+        padding: 0;
+        border: none;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1,340px);
+        justify-content: center;
+    }
+    .product-card img{
+        width: 100%;
+    }
+    .see-btn {
+        text-align: center;
+    }
+
+    .gear-container {
+        flex-direction: column-reverse;
+    }
+
+    .gear-text {
+        width: auto;
+        text-align: center;
+    }
+
+    .gear-container img {
+        width: 100%;
+    }
+
+    .footer-section {
+       
+    }
+
+}
+
+/* responsive style for tablet */
+@media screen and (min-width: 576px) and (max-width:992px){
+    
+    .nav-section{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+        background-position:bottom center;
+    }
+    .banner-text{
+        margin-bottom: 50px;
+    }
+    .sponsor-icon{
+        margin: 0 100px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      
+      gap: 80px;
+    }
+    .product-container{
+        grid-template-columns: repeat(2,300px);
+        gap: 20px;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    .see-btn{
+        text-align:center;
+    }
+    .gear-container{
+        flex-direction: column-reverse;
+    }
+    .gear-text{
+        width: 80%;
+        text-align: center;
+    }
+}
